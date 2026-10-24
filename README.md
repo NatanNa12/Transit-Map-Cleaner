@@ -74,6 +74,16 @@ To copy the compiled DLL straight into a local SPT install, add `-p:DeployToGame
 
 ---
 
+## VirusTotal
+
+`Transit.Ram.Cleaner.zip` was scanned and no security vendors flagged it as malicious.
+
+SHA-256: `7c40434b1de425ddd2b54091070140e935affc9d9eea86bbcd42150a5bee24e3`
+
+[VirusTotal report](https://www.virustotal.com/gui/file/7c40434b1de425ddd2b54091070140e935affc9d9eea86bbcd42150a5bee24e3)
+
+---
+
 ## Support
 
 If this mod is useful to you and you want to support development, you can buy me a coffee on Ko-fi: [ko-fi.com/natanna](https://ko-fi.com/natanna)
