@@ -74,6 +74,14 @@ To copy the compiled DLL straight into a local SPT install, add `-p:DeployToGame
 
 ---
 
+## Support
+
+If this mod is useful to you and you want to support development, you can buy me a coffee on Ko-fi: [ko-fi.com/natanna](https://ko-fi.com/natanna)
+
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/natanna)
+
+---
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
