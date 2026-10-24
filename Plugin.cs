@@ -12,7 +12,7 @@ using UnityEngine.SceneManagement;
 
 namespace Natan_Na.Transit.Ram.Cleaner
 {
-    [BepInPlugin("Natan_Na.Transit.Ram.Cleaner", "Transit RAM Cleaner", "1.0.0")]
+    [BepInPlugin("com.natan.transitramcleaner", "Transit RAM Cleaner", "1.0.0")]
     public class Plugin : BaseUnityPlugin
     {
         internal static Plugin Instance;
@@ -37,7 +37,7 @@ namespace Natan_Na.Transit.Ram.Cleaner
             Verbose = Config.Bind("2. Memory", "Log details", true,
                 "Log which bundles were released and how much memory the process holds before/after.");
 
-            new Harmony("Natan_Na.Transit.Ram.Cleaner").PatchAll(typeof(Plugin).Assembly);
+            new Harmony("com.natan.transitramcleaner").PatchAll(typeof(Plugin).Assembly);
             Log.LogInfo("Transit RAM Cleaner loaded. Map scene bundles will be released between raids.");
         }
 

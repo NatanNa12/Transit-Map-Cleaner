@@ -26,7 +26,7 @@ A bundle whose scene is still loaded is never released, and the cleanup only run
 
 ## Configuration
 
-File: `BepInEx/config/Natan_Na.Transit.Ram.Cleaner.cfg`
+File: `BepInEx/config/com.natan.transitramcleaner.cfg`
 
 | Section | Key | Default | Meaning |
 |---|---|---|---|
